@@ -1,6 +1,6 @@
-const botaoTrailer = document.querySelector(".btn-trailer");
-const botaoFecharModal = document.querySelector(".fechar-modal");
-const video = document.getElementById("video");
+const botaoTrailer = document.querySelector('.btn-trailer');
+const botaoFecharModal = document.querySelector('.fechar-modal');
+const video = document.getElementById('video');
 const modal = document.querySelector('.modal');
 const linkDoVideo = video.src;
 
@@ -15,6 +15,6 @@ botaoTrailer.addEventListener("click", () => {
 });
 
 botaoFecharModal.addEventListener("click", () =>{
- video.setAttribute("src","");
+ video.setAttribute("src", "");
  alternarModal();
 });
